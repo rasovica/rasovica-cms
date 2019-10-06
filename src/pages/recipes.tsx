@@ -11,7 +11,9 @@ const Recipes: React.FunctionComponent = ({data}) => {
           item => {
               const {fields, frontmatter} = item.node;
 
-              return <RecipeCard to={fields.slug} title={frontmatter.title}/>
+              return <RecipeCard to={fields.slug}
+                                 title={frontmatter.title}
+                                 image={frontmatter.thumbnail} />
           }
         )
       }
@@ -41,6 +43,7 @@ export const pageQuery = graphql`
                     }
                     frontmatter {
                         title
+                        thumbnail
                     }
                 }
             }
