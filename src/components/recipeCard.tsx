@@ -9,7 +9,7 @@ const Styled = styled.div`
   
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url("images/polaroid.png");
+  background-image: url("/images/polaroid.png");
   overflow: hidden;
   
   img {
