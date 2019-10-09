@@ -1,7 +1,7 @@
 ---
 date: 2019-10-06T01:47:04.897Z
 title: Vegan cake
-thumbnail: /assets/cake.jpeg
 type: recipe
+thumbnail: /assets/cake.jpeg
 ---
-**Vegan cake recipe**
+**Vegan cake recipe!!**
